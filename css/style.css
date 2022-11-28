@@ -1,0 +1,194 @@
+
+*{
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  max-width: 100%;
+}
+
+/* Header*/
+
+.header{
+  min-height: 160px;
+}
+
+.container{
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-container{
+  display: flex;
+  align-items:center;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.logo{
+  width: 261px;
+  min-height: 54px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.header-contacts{
+  color: black;
+  margin-left: 30px;
+}
+
+.personal-area{
+  margin-left: auto;
+}
+
+.nav{
+  display: flex;
+  min-height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list{
+  display: flex;
+  min-height: 70px;
+  align-items: center;
+}
+
+.nav-list-item{
+  padding-right: 20px;
+  padding-left: 45px;
+  font-size: 16px;
+}
+
+.btn{
+
+  padding: 16px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #CC9933;
+  background-color: #fff;
+  border-radius: 15px;
+  border-color: #CC9933 ;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+
+/* Main */
+
+.section-hero{
+  margin-top: 70px;
+}
+
+.section-hero-heading{
+  margin-bottom: 20px;
+  color: #333333;
+  font-size: 40px;
+  line-height: 40px;
+  margin-left: 40px;
+}
+
+.section-hero-list{
+  display:flex;
+  justify-content:space-between;
+  margin: 25px;
+}
+
+.section-hero-left{
+  width: 573px;
+
+}
+
+.section-hero-1{
+  min-width: 573px;
+  min-height: 258px;
+}
+
+.section-hero-2{
+  min-width: 573px;
+  min-height: 258px;
+}
+
+.section-hero-right{
+  width: 573px;
+
+}
+
+
+/* Services */
+
+
+.section-services-item{
+  min-height: 165px;
+  max-width: 573px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* section-advantage*/
+
+.section-advantage-item{
+  display: inline-block;
+  vertical-align: middle;
+  min-height: 276px;
+  max-width: 276px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+/*section-placement*/
+
+.section-placement-item{
+  display: inline-block;
+  vertical-align: middle;
+  min-height: 440px;
+  max-width: 374px;
+  margin-right: 24px;
+  padding-top: 20px;
+  background-image: url(../img/maldivain.jpg);
+  background-repeat: no-repeat;
+  background-size: 374px 217px;
+}
+
+.section-palcement-all{
+  display: inline-block;
+  vertical-align: middle;
+  min-height: 440px;
+  max-width: 374px;
+  margin-right: 24px;
+  padding-top: 20px;
+  background-image: url(../img/41.jpg);
+  background-repeat: no-repeat;
+  background-size: 374px 440px;
+}
+
+.section-palcement-price-1{
+  margin-left: 45px;
+  color: #999999;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.section-palcement-price-2{
+  margin-left: 4px;
+  color: #000000;
+  font-size: 20px;
+}
+
+.section-palcement-price-3{
+  margin-right: 57px;
+}
