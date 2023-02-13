@@ -161,7 +161,7 @@ img {
   flex: content;
   width: 21px;
   height: 12px;
-  background: url(../img/personal_area.svg) right center no-repeat transparent;
+  background: url(/img/personal_area.svg) right center no-repeat transparent;
   background-size: contain;
   margin-top: 10px;
   transform: translateY(-2px);
@@ -258,13 +258,10 @@ img {
 }
 
 .section-hero__list {
-  display: flex;
-  justify-content: space-between;
   margin-bottom: 70px;
 }
 
 .section-hero__left {
-  width: 573px;
   margin-right: 25px;
 
 
@@ -334,8 +331,7 @@ img {
 }
 
 .section-hero__right {
-  max-width: 573px;
-  min-height: 540px;
+  width: 570px;
   background: url(../img/lux@2x.jpg) no-repeat transparent;
   background-size: contain;
   border-radius: 15px;
@@ -372,8 +368,6 @@ img {
 .section-services__item {
   min-height: 330px;
   width: 573px;
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .section-services__item-services {
@@ -457,19 +451,15 @@ img {
 /* section-advantage*/
 
 .section-advantage-item {
-  display: inline-block;
-  vertical-align: middle;
-  min-height: 276px;
-  max-width: 276px;
   background-color: var(--bg-white);
   border-radius: 15px;
   margin-top: 15px;
-  margin-right: 15px;
+  padding-bottom: 25px;
 }
 
-.section-advantage-item:nth-child(4n) {
+/* .section-advantage-item:nth-child(4n) {
   margin-right: 0px;
-}
+} */
 
 .section-advantage-item-icon {
   background-color: transparent;
@@ -502,14 +492,10 @@ img {
 }
 
 .section-placement-item {
-  display: inline-block;
-  vertical-align: middle;
-  min-height: 460px;
-  max-width: 374px;
+  min-height: 430px;
   border-radius: 15px;
   background-color: var(--bg-white);
-  margin-right: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .section-placement-item-1 {
@@ -644,15 +630,11 @@ img {
 }
 
 .section-placement-all {
-  display: inline-block;
-  vertical-align: middle;
-  min-height: 460px;
-  max-width: 374px;
+  margin-top: 15px;
   background-image: url(../img/placement-all@2x.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  border-radius: 15px;
-  margin-top: -20px;
+  border-radius: 32px;
   position: relative;
 }
 
@@ -667,15 +649,14 @@ img {
 
 .section-placement-link {
   display: inline-block;
+  min-height: 430px;
   font-weight: 500;
   line-height: 20px;
   font-size: 20px;
   color: var(--bg-white);
   padding-left: 45px;
   padding-top: 373px;
-
   padding-bottom: 27px;
-  width: 440px;
   transition: color .3s ease;
 }
 
